@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+
+}
+body{
+  font-family:  sans-serif;
+  background:url("5580296.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100%;
+  
+  
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5px;
+}
+h1{
+  font-size: 40px;
+  color: gainsboro;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button h2 {
+  font-size: 24px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button {
+  
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  width: 50%;
+  border: 5px solid #ccc;
+  border-radius: 12px;
+}
+.Rock {background-color: #4CAF50;font-size: 40px} 
+.Paper {background-color: #008CBA;font-size: 40px; } 
+.Scissors {background-color: #f44336;font-size: 40px;} 
+
+
+.button:hover {
+  opacity: 1s;
+  color: white;
+  background-color: yellowgreen;
+  
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.result h2{
+  font-size: 40px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.refresh {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.score h2 {
+  font-size: 24px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.score-human, .score-computer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.score-human h3, .score-computer h3 {
+  font-size: 18px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-right: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.score-human-value, .score-computer-value {
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button:nth-child(2) h2 {
+  font-size: 24px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
